@@ -1,0 +1,14 @@
+@import '../../utils/home/home.wxss';
+
+.weax-icon {
+  font-size: 48px;
+  color: plum;
+}
+
+.section {
+  margin: 60rpx 50rpx 10rpx;
+}
+
+.cont {
+  margin-top: 125rpx;
+}

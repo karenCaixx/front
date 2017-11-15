@@ -1,0 +1,9 @@
+<view>
+  <import src="../../utils/card/card.wxml"/>
+  <template is="card" data="{{data: myData}}"></template>
+
+  <view wx:if="{{noData}}" class='no-data f12'>
+    还是个不毛之地
+    <view class='close-btn mtb-30' bindtap='toHome'><text class='icon iconfont icon-icon-test10 f18'></text></view> 
+  </view>
+</view>

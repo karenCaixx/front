@@ -1,0 +1,4 @@
+<!--loading.wxml-->
+<template name="loading">
+  <view class="spinner"></view>
+</template>

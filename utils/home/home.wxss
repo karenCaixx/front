@@ -1,0 +1,15 @@
+.home-btn {
+  position: fixed;
+  bottom: 220rpx;
+  float: right;
+  right: 40rpx;
+  border: 1px solid lightblue;
+  border-radius: 100%;
+  padding: 15rpx;
+  box-shadow: 0 0 10rpx 1px lightblue;
+}
+
+.home-btn text {
+  font-size: 34px;
+  color: lightblue;
+}

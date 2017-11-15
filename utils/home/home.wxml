@@ -1,0 +1,5 @@
+<template name="home">
+  <view class='box' bindtap='toHome'>
+    <view class='home-btn'><text class='icon iconfont icon-icon-test1'></text></view>
+  </view>
+</template>

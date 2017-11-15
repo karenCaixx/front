@@ -1,0 +1,10 @@
+<view class='section'>
+  <view class=''>
+    <text class='icon iconfont icon-{{detailInfo.weaxIcon}} weax-icon'></text>
+    <text class='fr mr-30 f20 font-italic'>{{detailInfo.date}}</text>
+  </view>
+  <view class='cont'>{{detailInfo.content}}</view>
+
+  <import src="../../utils/home/home.wxml" />
+  <template is="home"></template>
+</view>

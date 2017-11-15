@@ -1,0 +1,74 @@
+.txt-center {
+  text-align: center;
+}
+
+.mtb-15 {
+  margin: 15rpx 0;
+}
+
+.mtb-30 {
+  margin: 30rpx 0;
+}
+
+.mt-15 {
+  margin-top: 15rpx;
+}
+
+.ml-15 {
+  margin-left: 15rpx;
+}
+
+.mr-15 {
+  margin-right: 15rpx;
+}
+
+.mr-30 {
+  margin-right: 30rpx;
+}
+
+.mt-30 {
+  margin-top: 30rpx;
+}
+
+.oh {
+  overflow: hidden;
+}
+
+.in-block {
+  display: inline-block;
+}
+
+.f12 {
+  font-size: 12px;
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+f20 {
+  font-size: 20px;
+}
+
+.fr {
+  float: right;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  box-sizing: border-box;
+}
+
+.hide {
+  display: none;
+}
+
+.font-italic {
+  font-style: italic;
+}

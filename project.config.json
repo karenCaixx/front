@@ -1,0 +1,46 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": false,
+		"minified": true
+	},
+	"compileType": "weapp",
+	"libVersion": "1.5.3",
+	"appid": "wxa26964d62ebb5a26",
+	"projectname": "project",
+	"condition": {
+		"weapp": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "note",
+					"pathName": "pages/subpage/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "timeline",
+					"pathName": "pages/timeline/index",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "detail",
+					"pathName": "pages/detail/index",
+					"query": ""
+				}
+			]
+		},
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		}
+	}
+}

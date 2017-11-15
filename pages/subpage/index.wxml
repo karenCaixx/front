@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="section txt-center">
+  <view class="title mtb-15">
+    <text class='f12'>{{se}}</text>
+  </view>
+  
+  <form bindsubmit="bindFormSubmit">
+    <picker mode="date" bindchange="bindDateChange" value="{{date}}" start="{{date}}" end="" class='f12'>
+      <view class="picker">{{date}}</view>
+    </picker>
+    <radio-group class='mtb-15' bindchange="iconTap">
+      <block wx:for="{{weaxArr}}">
+        <label>
+          <radio value="{{item.id}}" name="weax-icon" hidden/>
+          <view class="{{item.class}} mr-30 in-block weax-icon weax-{{idx}}"></view>
+        </label> 
+      </block>
+    </radio-group>
+    <view class='oh'>
+      <view class='tip'>
+        <text class='icon iconfont icon-icon-test8'></text>
+      </view>
+      <textarea class='main mt-15 f12' name="content" auto-height>{{content}}</textarea>
+    </view>
+    <button form-type="submit" class='f18 save-btn' plain>今日份完成<text class='icon iconfont icon-icon-test6'></text></button>
+    <text class='icon iconfont icon-goutongye_zuojiantou_fanhui'></text>
+  </form>
+
+<!-- <view class='addBtn' bindtap='addPic'>添加图片</view> -->
+<!-- <import src="../../utils/loading5/loading.wxml"/>
+<template is="loading"></template> -->
+</view>

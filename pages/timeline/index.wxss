@@ -1,0 +1,12 @@
+@import '../../utils/card/card.wxss';
+
+.no-data {
+  text-align: center;
+  margin-top: 30%;
+  color: #999;
+}
+
+.close-btn text {
+  font-size: 40px;
+  color: #000;
+}

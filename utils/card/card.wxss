@@ -1,0 +1,51 @@
+.wrapper {
+  padding: 40rpx 30rpx;
+}
+
+.card-cont {
+  width: 38%;
+  height: 100rpx;
+  overflow: hidden;
+  padding: 30rpx 30rpx 10rpx;
+  margin-bottom: 20rpx;
+  border: 1px solid #eee;
+  display: inline-block;
+
+  position: relative;
+  background: hsla(0, 0%, 100%, .25) border-box;
+  border-radius: 8rpx;
+  box-shadow: 0 0 0 1px hsla(0, 0%, 100%, .3) inset,
+              0 .2rem .4rem rgba(0, 0, 0, .4);
+  text-shadow: 0 1px 1px hsla(0, 0%, 100%, .3);
+  filter: opacity(0.8);
+}
+
+.card-cont::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: -30rpx;
+  z-index: -1;
+  -webkit-filter: blur(20rpx);
+  filter: blur(20rpx);
+}
+
+.wrapper .card-cont:nth-child(2n+1) {
+  margin-right: 36rpx;
+}
+
+.info { 
+  width: 50%;
+  font-style: italic; 
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.icon-info {
+  width: 50%;
+  text-align: right;
+}
