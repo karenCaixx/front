@@ -1,0 +1,7 @@
+<view class='section txt-center'>
+  <text class='info'>
+    只有授权才能使用完整的功能哦
+  </text>
+
+  <button class="btn" open-type="getUserInfo" bindgetuserinfo="userInfoHandler"> 点我授权 </button>
+</view>

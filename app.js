@@ -22,6 +22,15 @@ App({
         success: function(res) {
           that.globalData.userInfo = res.userInfo
           typeof cb == "function" && cb(that.globalData.userInfo)
+        },
+        fail: function(res) {
+          //拒绝授权
+          if(res.errMsg == 'getUserInfo:cancel' || res.errMsg == 'getUserInfo:fail auth deny') {
+            console.log(res)
+            wx.redirectTo({
+              url: '../authorize/index'
+            })
+          }
         }
       })
     }

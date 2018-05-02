@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/subpage/index",
     "pages/timeline/index",
-    "pages/detail/index"
+    "pages/detail/index",
+    "pages/authorize/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

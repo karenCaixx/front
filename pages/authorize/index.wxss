@@ -1,0 +1,8 @@
+.info {
+  font-size: 30rpx;
+}
+
+.btn {
+  margin-top: 40%;
+  width: 50%;
+}
