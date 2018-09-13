@@ -1,0 +1,25 @@
+
+<view class="container">
+	<image class="bg-wrapper" mode="" src="{{bgImg}}" bindload="imgLoad"></image>
+	<view class="content">
+		<text class="now"> {{ now }} </text>		
+		<form bindsubmit="generate">
+			<button class="btn" formType="submit"><text class="icon iconfont icon-shape-1"></text></button>
+			<textarea wx:if="{{!imgShow}}" class="textarea" placeholder="从这里开始~" placeholder-class="ta-style" name="content" value="{{taVal}}" maxlength='-1' />
+		</form>
+		<view class="img-wrapper" wx:if="{{imgShow}}">
+			<view class="mask"></view>
+			<view class="img">
+				<image src="{{img}}" binderror="" bindload=""></image>
+				<view class="bottom">
+					<text class="icon iconfont icon-icon-test" bindtap="saveImg"></text>	
+					<text class="icon iconfont icon-icon-test5" bindtap="close"></text>
+				</view>
+			</view>
+		</view>
+	</view>
+    <canvas canvas-id="imgCanvas" class="img-canvas"></canvas>
+</view>
+
+<!-- <import src="../../utils/loading5/loading.wxml"/>
+<template is="loading"></template> -->

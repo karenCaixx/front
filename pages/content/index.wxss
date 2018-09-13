@@ -1,0 +1,127 @@
+.container {
+	align-items: flex-start;
+	padding: 0;
+	/* color: #666; */
+	font-size: 30rpx;
+}
+
+.content {
+	position: absolute;
+	padding: 0 30rpx;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.container .bg-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.textarea {
+	margin-top: 20rpx;
+	width: 100%;
+	height: 85%;
+}
+
+.ta-style {
+	font-size: 24rpx;
+	letter-spacing: 12rpx;
+}
+
+.btn {
+	display: block;
+	outline: none;
+	text-align: right;
+	height: 80rpx;
+	line-height: 80rpx;
+	background: transparent;
+}
+.icon-shape-1 {
+	font-size: 60rpx;
+}
+
+button::after {
+	border: none;
+}
+
+.img-canvas {
+	width: 100%;
+	height: 1200rpx;
+	position: absolute;
+	left: -10000rpx;
+}
+
+.mask {
+	height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background: rgba(0, 0, 0, .5);
+}
+
+.img {
+	position: absolute;
+	top: 10%;
+	z-index: 100;
+	left: 9.5%;
+}
+
+.img image {
+	width: 600rpx;
+	height: 800rpx;
+}
+
+.bottom {
+	display: flex;
+	color: #eee;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20rpx;
+}
+
+.bottom text.icon {
+	text-align: center;
+	width: 80rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	font-size: 64rpx;
+	margin-right: 60rpx;
+}
+	
+.bottom text.icon-icon-test {
+	-webkit-animation: ripple .6s ease 0s infinite;
+    -webkit-aniamtion-direction: alternate;
+}
+
+.bottom text.icon-icon-test5 {
+	opacity: 0.8;
+}
+
+@keyframes ripple {
+	0% {
+		transform: scale(1);
+		/* opacity: 0.72; */
+	}
+	25% {
+		transform: scale(1.1, 1.1);
+		/* opacity: 0.74; */
+	}
+	50% {
+		transform: scale(1.12, 1.12);
+		/* opacity: 0.76; */
+	}
+	75% {
+		transform: scale(1.1, 1.1);
+		/* opacity: 0.78; */
+	}
+	100% {
+		transform: scale(1);
+		/* opacity: 0.8; */
+	}
+}

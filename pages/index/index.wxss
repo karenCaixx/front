@@ -26,6 +26,6 @@
   margin-top: 25%;
 }
 
-.icon-yuzhouxingqiu-13, .icon-yuzhouxingqiu-15 {
-  font-size: 52px;
+.icon {
+  font-size: 84rpx;
 }

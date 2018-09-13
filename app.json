@@ -5,7 +5,9 @@
     "pages/subpage/index",
     "pages/timeline/index",
     "pages/detail/index",
-    "pages/authorize/index"
+    "pages/authorize/index",
+    "pages/share/index",
+    "pages/content/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
